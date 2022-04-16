@@ -1,0 +1,139 @@
+body{
+    background-color: #d5d4d4;
+}
+header {
+     position: absolute;
+     width: 100%;
+     height: auto;
+     left: 0px;
+     top: 0px;
+}
+header ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-image: url(https://i0.wp.com/dotsandbrackets.com/wp-content/uploads/2017/02/old-library.jpg?fit=900%2C602&ssl=1);
+}
+.logo{
+    float: left;
+}
+header li {
+    float: right;
+}
+header li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 20px;
+}
+header li a:hover {
+    background-color: #111;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+     background-image: url(https://i0.wp.com/dotsandbrackets.com/wp-content/uploads/2017/02/old-library.jpg?fit=900%2C602&ssl=1);
+    height: auto;
+    width: 100vw;
+
+    padding-top: 20px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+.register{
+    margin-top: 200px;
+    margin-bottom: 100px;
+
+}
+  input[type=sign]{
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  max-width: 10%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+.email{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pass{
+    display: flex;
+    justify-content: space-evenly;
+}
+.repeat{
+    display: flex;
+    justify-content: space-evenly;
+}
+.buttooon{
+    display: flex;
+    justify-content: center;
+}
+
+.reg{
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+}
+.naz{
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+.lin{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.pht{
+    padding-left: 200px;
+}
+.zzz{
+    float: right;
+    margin-top: -300px;
+    margin-right: 700px;
+}
+.zzz1{
+    float: right;
+    margin-top: -200px;
+    margin-right: 700px;
+}

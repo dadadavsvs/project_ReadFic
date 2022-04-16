@@ -1,0 +1,136 @@
+body {
+    font-size: 20px;
+    font-family: Ebrima;
+    margin: 0;
+}
+
+.container{
+
+    margin:0 auto;
+    width: 1200px;
+    font-size: 20px;
+}
+
+.page {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+background-size: 100%;
+ background-image: url(https://i0.wp.com/dotsandbrackets.com/wp-content/uploads/2017/02/old-library.jpg?fit=900%2C602&ssl=1);
+}
+.page-logo{
+     color: azure;
+    font-size:140px;
+    font-weight: 700;
+    text-align: center;
+ }
+.page-inner{
+    width:100%;
+    max-width: 800px;
+    margin:0 auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+.header{
+    width:100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+}
+
+.header-logo{
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.nav{
+    font-size: 16px;
+}
+
+.nav-link{
+    display:inline-block;
+    text-transform: uppercase;
+    vertical-align: top;
+    margin:0 17px;
+    color: #FFFACD;
+    text-decoration: none;
+    transition: color 50ms linear;
+}
+
+.nav-link:hover{
+    color: brown;
+}
+
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper{
+    margin-top: 100px;
+    border-radius: 100px;
+    height: 300%;
+    width: 1350px;
+    max-width: 100%;
+    background-size: 100%;
+    background-color: #FFFFFF   ;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cinema1{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px
+}
+.cinema2{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px
+}
+.scale {
+    display: inline-block; 
+    overflow: hidden; 
+   }
+   .scale img {
+    transition: 1s; 
+    display: block; 
+   }
+   .scale img:hover {
+    transform: scale(1.2);
+   }
+   .sazz{
+    color: #CD853F    ;
+   }
+.katal{
+display: flex;
+justify-content: space-around;
+}
+.katal a{
+    margin-top: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+.levo{
+    float: left;
+    margin-bottom: 60px;
+    padding-left: 50px;
+}
+.levo a{
+    text-decoration:none;
+}
+.pravo{
+    float: right;
+    margin-bottom: 60px;
+    padding-right: 50px;
+}
+.pravo a{
+    text-decoration:none;
+}
